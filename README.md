@@ -76,8 +76,12 @@ Number concentration of particulate matter. This differs from PM because NC give
 NC2.5 :
 Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
 
+
 CNT :
 Sample counter
+
+
+### Applied data preprocessing, feature engineering, and exploratory data analysis. Trained and evaluated multiple classification models including Random Forest (RF), Support Vector Classifier (SVC), Decision Tree (DT), and Logistic Regression (LR), with Decision Tree selected as the final model for its best performance.
 
 Fire Alarm :
 ground truth is "1" if a fire is there
