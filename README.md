@@ -37,47 +37,47 @@ The dataset is nearly 60.000 readings long. The sample rate is 1Hz for all senso
 
 index
 
-UTC
+UTC  :
 Timestamp UTC seconds
 
-Temperature[C]
+Temperature[C] :
 Air Temperature
 
-Humidity[%]
+Humidity[%] :
 Air Humidity
 
-TVOC[ppb]
+TVOC[ppb] :
 otal Volatile Organic Compounds; measured in parts per billion
 
-eCO2[ppm]
+eCO2[ppm] :
 co2 equivalent concentration; calculated from different values like TVCO
 
-Raw H2
+Raw H2 :
 raw molecular hydrogen; not compensated (Bias, temperature, etc.)
 
-Raw Ethanol
+Raw Ethanol :
 raw ethanol gas
 
-Pressure[hPa]
+Pressure[hPa] :
 Air Pressure
 
-PM1.0
+PM1.0 :
 particulate matter size < 1.0 µm (PM1.0). 1.0 µm < 2.5 µm (PM2.5)
 
-PM2.5
+PM2.5 :
 particulate matter size < 1.0 µm (PM1.0). 1.0 µm < 2.5 µm (PM2.5)
 
-NC0.5
+NC0.5 :
 Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
 
-NC1.0
+NC1.0 :
 Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
 
-NC2.5
+NC2.5 :
 Number concentration of particulate matter. This differs from PM because NC gives the actual number of particles in the air. The raw NC is also classified by the particle size: < 0.5 µm (NC0.5); 0.5 µm < 1.0 µm (NC1.0); 1.0 µm < 2.5 µm (NC2.5);
 
-CNT
+CNT :
 Sample counter
 
-Fire Alarm
+Fire Alarm :
 ground truth is "1" if a fire is there
