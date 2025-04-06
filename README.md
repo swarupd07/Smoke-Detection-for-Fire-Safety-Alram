@@ -80,8 +80,9 @@ Number concentration of particulate matter. This differs from PM because NC give
 CNT :
 Sample counter
 
+Fire Alarm :
+ground truth is "1" if a fire is there
 
 ### Applied data preprocessing, feature engineering, and exploratory data analysis. Trained and evaluated multiple classification models including Random Forest (RF), Support Vector Classifier (SVC), Decision Tree (DT), and Logistic Regression (LR), with Decision Tree selected as the final model for its best performance.
 
-Fire Alarm :
-ground truth is "1" if a fire is there
+
